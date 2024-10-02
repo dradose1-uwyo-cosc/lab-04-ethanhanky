@@ -1,6 +1,6 @@
 # [Ethan Hankel]
 ## [Lab #4]
-## [Submission date: MM/DD/YY]
+## [Submission date: 10/01/24]
 ## Worked with/sources 
 * If Statements power point
 * https://www.geeksforgeeks.org/python-program-to-find-largest-number-in-a-list/
