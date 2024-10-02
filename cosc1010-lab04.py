@@ -99,17 +99,16 @@ min_temps = [
 # You cannot use any pre-existing functions (like mean()) and must perform the calculations manually.
 # Output the results of both calculations.
 
-sum = 0
-for num in max_temps:
-    sum += num
-    average1 = sum / len(max_temps)
-print("The average of max temps is", average1)
-
-sum2 = 0
-for num2 in min_temps:
-    sum2 += num2
-    average2 = sum2 / len(min_temps)
-print("The average of min temps is", average2)
+sum_max_temps = 0
+sum_min_temps = 0
+num_days = len(max_temps)
+for i  in range(num_days):
+    sum_max_temps += max_temps[i]
+    sum_min_temps += min_temps[i]
+    avg_max_temp = sum_max_temps / num_days
+    avg_min_temp = sum_min_temps / num_days
+print(f"The average maximum temp was, {avg_max_temp}")
+print(f"The average minimum temp was, {avg_min_temp}")
 
 # For the next part, determine the highest and lowest recorded temperatures.
 # HINT: You can find this information without using any logic or looping.
