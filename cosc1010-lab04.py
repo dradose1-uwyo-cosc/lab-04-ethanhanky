@@ -3,8 +3,10 @@
 # Submission Date: 
 # Lab 03 
 # Lab Section: 14
-# I worked with the 
-
+# Used the If statements powerpoint
+# I also used the geeks for geeks website
+#https://www.geeksforgeeks.org/python-program-to-find-largest-number-in-a-list/
+# I also used chat gpt to help explain what some of the stuff was doing
 
 
 # This is your second lab section. It will primarily be about working with lists
